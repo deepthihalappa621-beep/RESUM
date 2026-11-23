@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formal Bio-data Document">
+    <title>Bio-data | [Your Full Name]</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="document-page">
+
+    <!-- Navigation Bar -->
+    <header class="site-header no-print">
+        <nav class="navbar container" aria-label="Main Navigation">
+            <a href="index.html" class="brand-logo">
+                <span class="brand-icon"><i class="fa-solid fa-code"></i></span>
+                <span class="brand-text">[Your Name]</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="biodata.html" class="nav-link active">Bio-data</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="document-main">
+        <div class="container">
+            <!-- Top Action Bar -->
+            <div class="doc-toolbar no-print fade-in">
+                <div>
+                    <h1 class="page-heading">Formal Bio-data</h1>
+                    <p class="page-subheading">Personal, family, and academic particulars</p>
+                </div>
+                <button id="downloadBiodataBtn" class="btn btn-primary">
+                    <i class="fa-solid fa-file-pdf"></i> Download Bio-data as PDF
+                </button>
+            </div>
+
+            <!-- Printable Bio-data Sheet -->
+            <article class="document-sheet biodata-sheet fade-in" id="biodataDocument">
+
+                <!-- Header -->
+                <header class="biodata-header">
+                    <div class="biodata-title-block">
+                        <h2 class="doc-name">BIO-DATA</h2>
+                        <p class="doc-role">[Your Full Name] — B.E. Computer Science &amp; Engineering</p>
+                    </div>
+                    <div class="biodata-photo">
+                        <img src="images/profile.jpg" alt="Passport Photo of [Your Full Name]"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 140%22><rect width=%22120%22 height=%22140%22 fill=%22%23e8f1fa%22/><circle cx=%2260%22 cy=%2248%22 r=%2222%22 fill=%22%231b365d%22/><path d=%22M20 125c0-25 18-40 40-40s40 15 40 40%22 fill=%22%231b365d%22/></svg>';">
+                    </div>
+                </header>
+
+                <!-- 1. Personal Details -->
+                <section class="doc-section">
+                    <h3 class="doc-section-title">1. Personal Details</h3>
+                    <table class="biodata-table">
+                        <tbody>
+                            <tr>
+                                <th>Full Name</th>
+                                <td>[Your Full Name]</td>
+                            </tr>
+                            <tr>
+                                <th>Date of Birth</th>
+                                <td>[DD / MM / YYYY]</td>
+                            </tr>
+                            <tr>
+                                <th>Gender</th>
+                                <td>[Male / Female / Other]</td>
+                            </tr>
+                            <tr>
+                                <th>Nationality</th>
+                                <td>Indian</td>
+                            </tr>
+                            <tr>
+                                <th>Marital Status</th>
+                                <td>Single</td>
+                            </tr>
+                            <tr>
+                                <th>Address</th>
+                                <td>[Door No., Street Name, Locality, City, State - PIN Code]</td>
+                            </tr>
+                            <tr>
+                                <th>Phone Number</th>
+                                <td>+91 XXXXX XXXXX</td>
+                            </tr>
+                            <tr>
+                                <th>Email Address</th>
+                                <td>your.email@example.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <!-- 2. Family Details -->
+                <section class="doc-section">
+                    <h3 class="doc-section-title">2. Family Details</h3>
+                    <table class="biodata-table">
+                        <tbody>
+                            <tr>
+                                <th>Father's Name</th>
+                                <td>[Father's Full Name]</td>
+                            </tr>
+                            <tr>
+                                <th>Mother's Name</th>
+                                <td>[Mother's Full Name]</td>
+                            </tr>
+                            <tr>
+                                <th>Siblings</th>
+                                <td>[e.g., 1 Younger Sister / None]</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <!-- 3. Educational Details -->
+                <section class="doc-section">
+                    <h3 class="doc-section-title">3. Educational Details</h3>
+                    <div class="table-responsive">
+                        <table class="formal-table">
+                            <thead>
+                                <tr>
+                                    <th>Qualification</th>
+                                    <th>Institution</th>
+                                    <th>Board / University</th>
+                                    <th>Year</th>
+                                    <th>Score</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bachelor of Engineering (CSE)</td>
+                                    <td>[Your College Name]</td>
+                                    <td>[Your University Name]</td>
+                                    <td>[Expected Year]</td>
+                                    <td>[CGPA / %]</td>
+                                </tr>
+                                <tr>
+                                    <td>PUC / 12th Standard</td>
+                                    <td>[Your PU College Name]</td>
+                                    <td>[Board Name]</td>
+                                    <td>[Year]</td>
+                                    <td>[Percentage]</td>
+                                </tr>
+                                <tr>
+                                    <td>SSLC / 10th Standard</td>
+                                    <td>[Your School Name]</td>
+                                    <td>[Board Name]</td>
+                                    <td>[Year]</td>
+                                    <td>[Percentage]</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- 4. Technical Knowledge -->
+                <section class="doc-section">
+                    <h3 class="doc-section-title">4. Technical Knowledge</h3>
+                    <ul class="doc-bullet-list">
+                        <li><strong>Programming Languages:</strong> C, Python, Java</li>
+                        <li><strong>Web Development:</strong> HTML5, CSS3, JavaScript, jQuery</li>
+                        <li><strong>Database Management:</strong> MySQL, SQLite</li>
+                        <li><strong>Software &amp; Tools:</strong> VS Code, Git, GitHub, MS Office</li>
+                    </ul>
+                </section>
+
+                <!-- 5. Hobbies & 6. Languages -->
+                <section class="doc-section two-col-section">
+                    <div>
+                        <h3 class="doc-section-title">5. Hobbies &amp; Interests</h3>
+                        <ul class="doc-bullet-list">
+                            <li>Coding &amp; exploring new web technologies</li>
+                            <li>Reading technical articles and books</li>
+                            <li>Listening to music</li>
+                            <li>[Add another hobby, e.g., Chess / Photography]</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="doc-section-title">6. Languages Known</h3>
+                        <ul class="doc-bullet-list">
+                            <li>English — Read, Write, Speak</li>
+                            <li>[Language 2, e.g., Kannada] — Read, Write, Speak</li>
+                            <li>[Language 3, e.g., Hindi] — Read, Write, Speak</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- 7. Career Objective -->
+                <section class="doc-section">
+                    <h3 class="doc-section-title">7. Career Objective</h3>
+                    <p>
+                        To build a rewarding career in the field of Computer Science and Software Engineering by utilizing my technical knowledge, analytical thinking, and continuous learning mindset to contribute meaningfully to organizational growth.
+                    </p>
+                </section>
+
+                <!-- 8. Declaration & 9. Place, Date and Signature -->
+                <section class="doc-section declaration-section">
+                    <h3 class="doc-section-title">8. Declaration</h3>
+                    <p>
+                        I hereby declare that all the details mentioned above are true, complete, and correct to the best of my knowledge and belief.
+                    </p>
+
+                    <div class="signature-row">
+                        <div>
+                            <p><strong>Place:</strong> [Your City]</p>
+                            <p><strong>Date:</strong> [DD / MM / YYYY]</p>
+                        </div>
+                        <div class="signature-box">
+                            <p class="signature-label">Signature</p>
+                            <p class="signature-line">([Your Full Name])</p>
+                        </div>
+                    </div>
+                </section>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer no-print">
+        <div class="container footer-content">
+            <p>&copy; <span id="currentYear"></span> [Your Full Name]. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="biodata.html">Bio-data</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top no-print" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

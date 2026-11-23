@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio, Resume, and Bio-data Website">
+    <title>Home | DEEPTHI L H - Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main Navigation">
+            <a href="index.html" class="brand-logo">
+                <span class="brand-icon"><i class="fa-solid fa-code"></i></span>
+                <span class="brand-text">Deepthi L H</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="biodata.html" class="nav-link">Bio-data</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content fade-in">
+                    <span class="welcome-badge">Welcome to my Portfolio</span>
+                    <h1 class="hero-title">Hello, I'm <span class="highlight">Deepthi L H</span></h1>
+                    <h2 class="hero-subtitle">BE Computer Science and Engineering Student</h2>
+                    <p class="hero-description">
+                        Passionate about Technology, Programming, and Web Development. I enjoy building clean, responsive web applications and solving real-world problems through code.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="resume.html" class="btn btn-primary">
+                            <i class="fa-solid fa-file-lines"></i> View Resume
+                        </a>
+                        <a href="biodata.html" class="btn btn-outline">
+                            <i class="fa-solid fa-id-card"></i> View Bio-data
+                        </a>
+                        <a href="#contact" class="btn btn-light">
+                            <i class="fa-solid fa-envelope"></i> Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links" aria-label="Social Media Links">
+                        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper fade-in">
+                    <div class="profile-frame">
+                        <img src="images/profile.jpg" alt="Profile Photograph of Deepthi L H"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 240 240%22><rect width=%22240%22 height=%22240%22 fill=%22%23e8f1fa%22/><circle cx=%22120%22 cy=%2290%22 r=%2242%22 fill=%22%231b365d%22/><path d=%22M45 210c0-42 34-68 75-68s75 26 75 68%22 fill=%22%231b365d%22/></svg>';">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Academic Overview Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">About &amp; Academic Profile</h2>
+                    <p class="section-subtitle">A brief introduction to my background, academic journey, and career interests.</p>
+                </div>
+
+                <div class="about-grid">
+                    <article class="info-card reveal">
+                        <div class="card-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <h3>Welcome Message</h3>
+                        <p>
+                            Thank you for visiting my personal website. I am an undergraduate Computer Science and Engineering student dedicated to strengthening my fundamentals in software development, data structures, databases, and full-stack web technologies.
+                        </p>
+                    </article>
+
+                    <article class="info-card reveal">
+                        <div class="card-icon"><i class="fa-solid fa-building-columns"></i></div>
+                        <h3>Academic Information</h3>
+                        <ul class="academic-list">
+                            <li><strong>Degree:</strong> B.E. in Computer Science &amp; Engineering</li>
+                            <li><strong>Institution:</strong> RIT College</li>
+                            <li><strong>University:</strong> Visvesvarya technologyical university</li>
+                            <li><strong>Current Year:</strong> 5th sem</li>
+                            <li><strong>USN / Roll No:</strong> 4RA24CS028</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Overview -->
+        <section class="section skills-section bg-subtle" id="skills">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Technical Skills Overview</h2>
+                    <p class="section-subtitle">Core technologies, languages, and tools I work with.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fa-solid fa-terminal"></i></div>
+                        <h3>Programming</h3>
+                        <div class="skill-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Java</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h3>Web Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">jQuery</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>Databases</h3>
+                        <div class="skill-tags">
+                            <span class="tag">MySQL</span>
+                            <span class="tag">SQLite</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Developer Tools</h3>
+                        <div class="skill-tags">
+                            <span class="tag">VS Code</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Navigation Callout -->
+        <section class="section cta-section">
+            <div class="container">
+                <div class="cta-box reveal">
+                    <div>
+                        <h2>Explore My Formal Documents</h2>
+                        <p>View or download my complete Academic Resume and formal Bio-data in print-ready PDF format.</p>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="resume.html" class="btn btn-primary">Open Resume</a>
+                        <a href="biodata.html" class="btn btn-outline-light">Open Bio-data</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section bg-subtle" id="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Feel free to reach out for academic collaborations, internships, or project discussions.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Details -->
+                    <div class="contact-info-card reveal">
+                        <h3>Contact Information</h3>
+                        <p class="contact-intro">You can connect with me directly via email, phone, or my professional profiles below.</p>
+
+                        <ul class="contact-details-list">
+                            <li>
+                                <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+                                <div>
+                                    <strong>Email</strong>
+                                    <a href="mailto:your.email@example.com">your.email@example.com</a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <a href="tel:+910000000000">+91 XXXXX XXXXX</a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                <div>
+                                    <strong>Location</strong>
+                                    <span>[Your City, State, India]</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+                                <div>
+                                    <strong>LinkedIn</strong>
+                                    <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-profile</a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fa-brands fa-github"></i></span>
+                                <div>
+                                    <strong>GitHub</strong>
+                                    <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">github.com/your-username</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card reveal">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm" novalidate>
+                            <div class="form-group">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name">
+                                <small class="error-message" id="nameError"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address">
+                                <small class="error-message" id="emailError"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject <span class="required">*</span></label>
+                                <input type="text" id="subject" name="subject" placeholder="Enter message subject">
+                                <small class="error-message" id="subjectError"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+                                <small class="error-message" id="messageError"></small>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+
+                            <div class="form-feedback" id="formFeedback" role="alert" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="currentYear"></span> [Your Full Name]. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="biodata.html">Bio-data</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
